@@ -14,8 +14,6 @@ c = 8600182173593228495028594544739667366218148041560394903522108981854623879357
 # -b formula
 # -b2 +/- (sqrt(b2 - 4ac) // 2(a))
 
-# We get a negative and positive, for p > 0 we choose the positive option
-
 e = 65537
 
 p = (-1 - (math.isqrt(pow(-1, 2) - 4 *(-2 * n)))) // (2 * -2)
