@@ -29,4 +29,6 @@ print(f"[*] Q found: {q}")
 phi = (q - 1) * (p - 1)
 d = pow(e, -1, phi)
 
-print(long_to_bytes(pow(c, d, n)).decode())
+print(f"[*] Private exponent found: {d}")
+
+print(f"[*] Flag: {long_to_bytes(pow(c, d, n)).decode()}")
