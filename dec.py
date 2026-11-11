@@ -19,8 +19,6 @@ e = 65537
 p = (-1 - (math.isqrt(pow(-1, 2) - 4 *(-2 * n)))) // (2 * -2)
 q = (2 * p) - 1
 
-print(f"{p * q}\n\n{n}")
-
 print(f"[*] P found: {p}")
 print(f"[*] Q found: {q}")
 
